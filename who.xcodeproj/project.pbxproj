@@ -13,6 +13,10 @@
 		CAF2B1CE2C0444D70000CAC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF2B1CD2C0444D70000CAC5 /* Preview Assets.xcassets */; };
 		CAF2B1D52C044A8B0000CAC5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2B1D42C044A8B0000CAC5 /* Person.swift */; };
 		CAF2B1D72C044E440000CAC5 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2B1D62C044E440000CAC5 /* EditPersonView.swift */; };
+		CAF2B1D92C0459EF0000CAC5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2B1D82C0459EF0000CAC5 /* Event.swift */; };
+		CAF2B1DB2C045A1A0000CAC5 /* Previewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2B1DA2C045A1A0000CAC5 /* Previewer.swift */; };
+		CAF2B1DD2C045AA20000CAC5 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2B1DC2C045AA20000CAC5 /* EditEventView.swift */; };
+		CAF2B1DF2C045B0A0000CAC5 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2B1DE2C045B0A0000CAC5 /* PeopleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		CAF2B1CD2C0444D70000CAC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CAF2B1D42C044A8B0000CAC5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		CAF2B1D62C044E440000CAC5 /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
+		CAF2B1D82C0459EF0000CAC5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		CAF2B1DA2C045A1A0000CAC5 /* Previewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
+		CAF2B1DC2C045AA20000CAC5 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		CAF2B1DE2C045B0A0000CAC5 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 			children = (
 				CAF2B1C62C0444D60000CAC5 /* whoApp.swift */,
 				CAF2B1C82C0444D60000CAC5 /* ContentView.swift */,
+				CAF2B1DE2C045B0A0000CAC5 /* PeopleView.swift */,
 				CAF2B1D62C044E440000CAC5 /* EditPersonView.swift */,
+				CAF2B1DC2C045AA20000CAC5 /* EditEventView.swift */,
+				CAF2B1D82C0459EF0000CAC5 /* Event.swift */,
+				CAF2B1DA2C045A1A0000CAC5 /* Previewer.swift */,
 				CAF2B1D42C044A8B0000CAC5 /* Person.swift */,
 				CAF2B1CA2C0444D70000CAC5 /* Assets.xcassets */,
 				CAF2B1CC2C0444D70000CAC5 /* Preview Content */,
@@ -146,7 +158,11 @@
 				CAF2B1D52C044A8B0000CAC5 /* Person.swift in Sources */,
 				CAF2B1C92C0444D60000CAC5 /* ContentView.swift in Sources */,
 				CAF2B1C72C0444D60000CAC5 /* whoApp.swift in Sources */,
+				CAF2B1DF2C045B0A0000CAC5 /* PeopleView.swift in Sources */,
+				CAF2B1DB2C045A1A0000CAC5 /* Previewer.swift in Sources */,
 				CAF2B1D72C044E440000CAC5 /* EditPersonView.swift in Sources */,
+				CAF2B1D92C0459EF0000CAC5 /* Event.swift in Sources */,
+				CAF2B1DD2C045AA20000CAC5 /* EditEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

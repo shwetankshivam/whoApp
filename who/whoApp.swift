@@ -9,11 +9,11 @@ import SwiftData
 import SwiftUI
 
 @main
-struct whoApp: App {
+struct WhoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for:Person.self)
+        .modelContainer(for: Person.self)
     }
 }
