@@ -11,6 +11,8 @@
 		CAF2B1C92C0444D60000CAC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2B1C82C0444D60000CAC5 /* ContentView.swift */; };
 		CAF2B1CB2C0444D70000CAC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF2B1CA2C0444D70000CAC5 /* Assets.xcassets */; };
 		CAF2B1CE2C0444D70000CAC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF2B1CD2C0444D70000CAC5 /* Preview Assets.xcassets */; };
+		CAF2B1D52C044A8B0000CAC5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2B1D42C044A8B0000CAC5 /* Person.swift */; };
+		CAF2B1D72C044E440000CAC5 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2B1D62C044E440000CAC5 /* EditPersonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CAF2B1C82C0444D60000CAC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAF2B1CA2C0444D70000CAC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAF2B1CD2C0444D70000CAC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAF2B1D42C044A8B0000CAC5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CAF2B1D62C044E440000CAC5 /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				CAF2B1C62C0444D60000CAC5 /* whoApp.swift */,
 				CAF2B1C82C0444D60000CAC5 /* ContentView.swift */,
+				CAF2B1D62C044E440000CAC5 /* EditPersonView.swift */,
+				CAF2B1D42C044A8B0000CAC5 /* Person.swift */,
 				CAF2B1CA2C0444D70000CAC5 /* Assets.xcassets */,
 				CAF2B1CC2C0444D70000CAC5 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF2B1D52C044A8B0000CAC5 /* Person.swift in Sources */,
 				CAF2B1C92C0444D60000CAC5 /* ContentView.swift in Sources */,
 				CAF2B1C72C0444D60000CAC5 /* whoApp.swift in Sources */,
+				CAF2B1D72C044E440000CAC5 /* EditPersonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +282,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"who/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Who;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +312,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"who/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Who;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -5,6 +5,7 @@
 //  Created by Shwetank Shivam on 27/05/24.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +14,6 @@ struct whoApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for:Person.self)
     }
 }
